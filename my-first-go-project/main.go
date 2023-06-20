@@ -1,9 +1,12 @@
 package main
 
 import (
-	timedemo "my-first-go-project/libraries/go/time"
+	jsonDemo "my-first-go-project/libraries/go/encoding/json"
 )
 
 func main() {
-	timedemo.Demo()
+	//timeDemo.Demo()
+	//jwtDemo.Demo()
+	//jwtDemo.Demo1()
+	jsonDemo.Demo1()
 }
